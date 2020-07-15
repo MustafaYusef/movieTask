@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+>
+
+    <item android:id="@+id/mainScreenFragment"
+      android:icon="@drawable/ic_baseline_home_24"
+    android:title="Home"
+    >
+
+    </item>
+    <item android:id="@+id/listMovieFragment"
+        android:icon="@drawable/ic_baseline_toc_24"
+        android:title="Category"
+        >
+
+    </item>
+
+    <item android:id="@+id/favouriteMovie"
+        android:icon="@drawable/ic_baseline_favorite_24"
+
+        android:title="Favourite"
+        >
+
+    </item>
+
+</menu>

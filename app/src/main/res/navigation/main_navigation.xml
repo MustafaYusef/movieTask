@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/mainScreenFragment">
+
+
+    <fragment
+        android:id="@+id/mainScreenFragment"
+        android:name="com.alnukba.movieapi.ui.mainScreen.MainScreenFragment"
+        android:label="fragment_main_screen"
+        tools:layout="@layout/fragment_main_screen" />
+    <fragment
+        android:id="@+id/detailsMovieFragment"
+        android:name="com.alnukba.movieapi.ui.detailsMovie.detailsMovieFragment"
+        android:label="fragment_details_movie"
+        tools:layout="@layout/fragment_details_movie" />
+    <fragment
+        android:id="@+id/listMovieFragment"
+        android:name="com.alnukba.movieapi.ui.category.listMovieFragment"
+        android:label="fragment_list_movie"
+        tools:layout="@layout/fragment_list_movie" />
+    <fragment
+        android:id="@+id/favouriteMovie"
+        android:name="com.alnukba.movieapi.ui.favourite.favouriteMovie"
+        android:label="fragment_favourite_movie"
+        tools:layout="@layout/fragment_favourite_movie" />
+    <fragment
+        android:id="@+id/movieCategory"
+        android:name="com.alnukba.movieapi.ui.category.movieCategory"
+        android:label="fragment_movie_category"
+        tools:layout="@layout/fragment_movie_category" />
+</navigation>
